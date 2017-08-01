@@ -16,7 +16,7 @@ var WeatherResult = (props) => {
   var {temp, location} = props;
 
   return (
-    <p>It's {temp} in {location}, motherfucker</p>
+    <h3 className="text-center">It's {temp} in {location}.</h3>
   )
 }
 
